@@ -8,6 +8,8 @@ indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
 
+[*.{js,html,blade.php,css,scss}]
+
 [*.md]
 trim_trailing_whitespace = false
 
