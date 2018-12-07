@@ -15,3 +15,7 @@
 //    return view('welcome');
 //});
 Route::get('/','PageController@root')->name('root');
+
+Auth::routes();
+
+//Route::get('/home', 'HomeController@index')->name('home');
