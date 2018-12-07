@@ -18,4 +18,6 @@ Route::get('/','PageController@root')->name('root');
 
 Auth::routes();
 
+Route::resource('users',"UsersController",['only'=>['show','update','edit']]);
+
 //Route::get('/home', 'HomeController@index')->name('home');
